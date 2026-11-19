@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "deal-check",
+  "description": "Kaufen, warten oder lassen: jeder Deal geprüft, bevor du zuschlägst.",
+  "owner": {
+    "name": "Christopher Thanisch",
+    "url": "https://thanisch.co"
+  },
+  "plugins": [
+    {
+      "name": "deal-check",
+      "description": "Prüft Black-Friday- und andere Rabatt-Angebote: Preisverlauf, echte Ersparnis, Shop-Vergleich, Urteil kaufen, warten oder lassen. Dazu Preiswächter, Postfach-Deals und Kauf-Check.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "deal-check",
+  "description": "Prüft Black-Friday- und andere Rabatt-Angebote: Preisverlauf, echte Ersparnis, Shop-Vergleich, Urteil kaufen, warten oder lassen. Dazu Preiswächter, Postfach-Deals und Kauf-Check.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Christopher Thanisch",
+    "url": "https://thanisch.co"
+  },
+  "homepage": "https://thanisch.co/wissen/guides/deal-check-skill",
+  "repository": "https://github.com/Ultra-Smashed/deal-check-skill",
+  "license": "MIT",
+  "keywords": [
+    "black-friday",
+    "cyber-monday",
+    "deals",
+    "preisvergleich",
+    "preisverlauf",
+    "rabatt",
+    "shopping",
+    "deutsch",
+    "claude-skills"
+  ]
+}
