@@ -5,7 +5,7 @@ Liest Werbemails und holt nur das heraus, was zur Wunschliste passt: Angebote, R
 ## Voraussetzung
 
 - **Claude**: Gmail oder ein anderes Mail-Postfach als Connector verbunden. Ist keiner verbunden, sag es und erkläre in einem Satz, wo man ihn verbindet (Einstellungen, Connectors).
-- **ChatGPT**: Der Gmail-Connector ist in der EU, im Vereinigten Königreich und in der Schweiz bisher nicht verfügbar (Stand November 2026). Wer dort ist, kopiert die Werbemails oder Screenshots in den Chat. Nicht versprechen, was nicht geht.
+- **ChatGPT**: Gmail unter Einstellungen → Apps verbinden. Ist kein Postfach verbunden, die Werbemails oder Screenshots in den Chat kopieren lassen.
 
 ## Ablauf
 

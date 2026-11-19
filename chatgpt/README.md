@@ -30,4 +30,4 @@ In eigenen GPTs gehen keine geplanten Aufgaben. Für den Preiswächter gibt dir 
 ## Was in ChatGPT anders ist
 
 - **Geplante Aufgaben** gibt es in ChatGPT in allen Tarifen, kostenlos bis zu drei aktive. Sie laufen höchstens einmal pro Stunde.
-- **Gmail-Connector:** in der EU, im Vereinigten Königreich und in der Schweiz bisher nicht verfügbar (Stand November 2026). Werbemails dann als Text oder Screenshot einfügen.
+- **Gmail:** Für Postfach-Deals Gmail unter **Einstellungen → Apps** verbinden. Danach durchsucht ChatGPT deine Werbemails direkt.
