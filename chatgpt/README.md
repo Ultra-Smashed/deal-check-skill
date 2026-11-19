@@ -1,6 +1,6 @@
 # Deal-Check in ChatGPT
 
-Der Skill ist für Claude gebaut. In ChatGPT bekommst du dieselben vier Module als Projekt mit Anweisungen. Die Anweisungen stehen in [`anweisungen.txt`](anweisungen.txt).
+Der Skill ist für Claude gebaut. In ChatGPT bekommst du dieselben fünf Module als Projekt mit Anweisungen. Die Anweisungen stehen in [`anweisungen.txt`](anweisungen.txt).
 
 ## Als Projekt (geht in jedem Tarif)
 
@@ -21,6 +21,7 @@ Die Websuche muss an sein, sonst kann ChatGPT keine Preise prüfen.
    - Lohnt sich dieser Deal? (Link einfügen)
    - Prüf diesen Screenshot von einem Angebot.
    - Richte mir einen Preiswächter für meine Wunschliste ein.
+   - Gibt es noch einen Gutscheincode für diesen Shop?
    - Brauche ich das überhaupt?
 6. **Fähigkeiten:** Websuche an, Code-Interpreter an, Bildgenerierung aus.
 7. **Erstellen**, Sichtbarkeit: **Jeder mit dem Link**.

@@ -1,10 +1,11 @@
 # Deal-Check-Skill
 
-Ein Skill für Claude, auch für ChatGPT nutzbar. Du schickst einen Link oder Screenshot von einem Angebot, und der Deal-Check prüft den Preisverlauf, rechnet die echte Ersparnis aus, vergleicht andere Shops mit Versandkosten und sagt dir am Ende klar: kaufen, warten oder lassen. Mit Zielpreis und, wenn es eine gibt, einer günstigeren Alternative. Kostenlos, MIT-Lizenz.
+Ein Skill für Claude, auch für ChatGPT nutzbar. Du schickst einen Link oder Screenshot von einem Angebot, und der Deal-Check prüft den Preisverlauf, rechnet die echte Ersparnis aus, vergleicht andere Shops mit Versandkosten, testet Gutscheincodes im Warenkorb und sagt dir am Ende klar: kaufen, warten oder lassen. Mit Zielpreis und, wenn es eine gibt, einer günstigeren Alternative. Kostenlos, MIT-Lizenz.
 
 | Modul | Was es macht |
 | --- | --- |
 | **Deal prüfen** | Produkt genau bestimmen, Preisverlauf der letzten Monate, Rabatt-Basis (UVP oder echter früherer Preis), Shop-Vergleich inklusive Versand, Seriositäts-Check bei unbekannten Shops und ein Urteil mit Belegen. |
+| **Gutscheine** | Sucht Gutscheincodes für den günstigsten Shop (Shop, Postfach, Deal-Communities) und probiert sie mit einem Browser-Werkzeug im Warenkorb aus. Am Ende steht der echte Endpreis mit dem besten Code. Bestellt wird nie. |
 | **Preiswächter** | Deine Wunschliste mit Höchstpreisen als geplante Aufgabe. Meldet sich nur, wenn ein Preis unter deine Grenze fällt, und wenn ein Shop den Preis vor der Aktion erhöht hat. |
 | **Postfach-Deals** | Durchsucht Werbemails nach Angeboten, die zu deiner Wunschliste passen, sammelt Rabatt-Codes mit Ablaufdatum und nennt die drei besten Deals des Tages. |
 | **Kauf-Check** | Fünf ehrliche Fragen, eine nach der anderen, dann ein Urteil, ob du es wirklich brauchst. |
@@ -57,6 +58,8 @@ Als Projekt mit Anweisungen oder als eigener GPT. Anleitung und der Text zum Ein
 
 > [Screenshot einer Produktseite] Kaufen oder warten?
 
+> Gibt es für diesen Warenkorb noch einen Gutscheincode? Probier sie aus.
+
 > Überwach meine Wunschliste bis Cyber Monday: Kopfhörer X unter 160 €, Saugroboter Y unter 300 €.
 
 > Ich überlege, mir das zu kaufen. Brauche ich das überhaupt?
@@ -65,7 +68,7 @@ Als Projekt mit Anweisungen oder als eigener GPT. Anleitung und der Text zum Ein
 
 ```
 skills/deal-check/SKILL.md          Ablauf, Module, Regeln
-skills/deal-check/modes/            eine Anleitung pro Modul
+skills/deal-check/modes/            eine Anleitung pro Modul (deal-pruefen, gutscheine, preiswaechter, postfach, kauf-check)
 chatgpt/anweisungen.txt             dieselben Module als Anweisungen für ChatGPT
 deal-check.zip                      der Skill-Ordner als ZIP für die Claude-App
 .claude-plugin/                     plugin.json, marketplace.json
@@ -79,7 +82,7 @@ Nach einer Änderung im Skill-Ordner die ZIP neu bauen: `cd skills && zip -r ../
 
 **Keine Rechts- oder Finanzberatung.** Hinweise zur Preisangabenverordnung oder zum Widerrufsrecht sind eine Einordnung, keine Beratung.
 
-**Nichts wird gekauft.** Der Skill bestellt nichts, meldet dich von nichts ab und verschickt nichts.
+**Nichts wird gekauft.** Der Skill bestellt nichts, meldet dich nirgends an oder ab und verschickt nichts. Zum Testen von Gutscheincodes legt er nach deinem Okay ein Produkt in den Warenkorb. Weiter als bis zum Warenkorb geht er nie, Adresse und Zahlungsdaten gibt er nicht ein. Das Ausprobieren braucht ein Browser-Werkzeug, zum Beispiel Claude in Chrome. Ohne Browser bekommst du die Codes als ungetestete Liste.
 
 **Postfach.** Beim Modul Postfach-Deals liest die KI deine Werbemails. Persönliche Mails werden nicht zusammengefasst. Sieh in den Einstellungen deines Kontos nach, ob deine Chats zur Verbesserung der Modelle genutzt werden dürfen.
 

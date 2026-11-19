@@ -33,7 +33,7 @@ Ob § 11 PAngV auch bei UVP-Vergleichen greift, ist umstritten. Bewerte deshalb 
 ## 4. Shop-Vergleich
 
 - Drei seriöse Shops mit dem **Endpreis inklusive Versand**, Lieferzeit und Verfügbarkeit.
-- Gutscheincodes nur, wenn sie öffentlich bestätigt und gültig sind. Nicht raten.
+- Gutscheincodes: nach dem Shop-Vergleich für den günstigsten seriösen Shop suchen und, wenn ein Browser-Werkzeug da ist, das Testen im Warenkorb anbieten. Ablauf in `gutscheine.md`. Nur getestete Codes zählen zum Endpreis.
 - Marktplatz-Angebote von Drittanbietern als solche kennzeichnen.
 
 ## 5. Seriosität (nur bei unbekanntem Shop)
@@ -66,6 +66,7 @@ Belege
 | Tiefstpreis 30 Tage | … | Link |
 | Tiefstpreis 3 Monate | … | Link |
 | Günstigster anderer Shop (inkl. Versand) | … | Link |
+| Mit bestem Gutscheincode | … | Code, getestet / ungetestet |
 Rabatt gerechnet von: [UVP / früherer Preis / keine Angabe]
 Echte Ersparnis: [x € bzw. y %] gegenüber [Bezugsgröße]
 

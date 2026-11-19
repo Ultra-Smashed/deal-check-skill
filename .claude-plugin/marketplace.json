@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "deal-check",
-      "description": "Prüft Black-Friday- und andere Rabatt-Angebote: Preisverlauf, echte Ersparnis, Shop-Vergleich, Urteil kaufen, warten oder lassen. Dazu Preiswächter, Postfach-Deals und Kauf-Check.",
+      "description": "Prüft Black-Friday- und andere Rabatt-Angebote: Preisverlauf, echte Ersparnis, Shop-Vergleich, Gutscheincodes finden und im Warenkorb testen, Urteil kaufen, warten oder lassen. Dazu Preiswächter, Postfach-Deals und Kauf-Check.",
       "source": "./",
       "category": "productivity"
     }
